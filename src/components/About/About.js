@@ -1,12 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Techstack from "./Techstack";
+import TechAndToolstack from "./TechAndToolstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
 import Education from "./Education";
-import Libraries from "./Libraries";
 
 function About() {
   return (
@@ -40,19 +38,11 @@ function About() {
           <Education />
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="blue">Skillset </strong>
+          Professional <strong className="blue">Skillset & Tools </strong> I Use
         </h1>
 
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="blue">Tools</strong> I use
-        </h1>
-        <Toolstack />
-        <h1 className="project-heading">
-          ML/DL  <strong className="blue">Libraries & Frameworks </strong>
-        </h1>
-        <Libraries />
+        <TechAndToolstack />
+        
       </Container>
     </Container>
   );
