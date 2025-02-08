@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiPostman,
 } from "react-icons/si";
-import { DiVisualstudio, DiCisco, DiSpark, DiDocker, DiAws} from "react-icons/di";
+import { DiVisualstudio, DiCisco, DiDocker, DiAws} from "react-icons/di";
 
 
 function Toolstack() {
@@ -14,9 +14,7 @@ function Toolstack() {
         <DiCisco />
       </Col>
       
-      <Col xs={4} md={2} className="tech-icons">
-        <DiSpark />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
       </Col>

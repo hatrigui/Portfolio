@@ -6,6 +6,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Education from "./Education";
+import Libraries from "./Libraries";
 
 function About() {
   return (
@@ -33,6 +34,9 @@ function About() {
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
+          <h1 className="project-heading">
+          My <strong className="blue">Education </strong>
+        </h1>
           <Education />
         </Row>
         <h1 className="project-heading">
@@ -45,7 +49,10 @@ function About() {
           <strong className="blue">Tools</strong> I use
         </h1>
         <Toolstack />
-
+        <h1 className="project-heading">
+          ML/DL  <strong className="blue">Libraries & Frameworks </strong>
+        </h1>
+        <Libraries />
       </Container>
     </Container>
   );

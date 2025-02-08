@@ -10,23 +10,37 @@ function Education() {
     <Container fluid className="education-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My <strong className="blue">Education</strong>
-        </h1>
         <VerticalTimeline>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="Sep 2024 - Present"
-            icon={<FaGraduationCap />}
-            iconStyle={{ background: "#007bff", color: "#fff" }}
-          >
-            <h3 className="vertical-timeline-element-title">
-              M.Sc in Information Processing and Complexity of Living Systems
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              National Engineering School of Tunis (ENIT), Tunisia
-            </h4>
-          </VerticalTimelineElement>
+        <VerticalTimelineElement
+  className="vertical-timeline-element--education"
+  date="Jan 2025 - Present"
+  icon={<FaGraduationCap />}
+  iconStyle={{ background: "#007bff", color: "#fff" }}
+  contentStyle={{ background: "#0a192f", color: "white", borderRadius: "8px", padding: "15px" }}
+>
+  <h3 className="vertical-timeline-element-title">
+  <strong className="blue"> M.Sc in Vision and Intelligent Machines </strong>
+  </h3>
+  <h4 className="vertical-timeline-element-subtitle">
+  Université Paris Cité, France
+  </h4>
+</VerticalTimelineElement>
+        <VerticalTimelineElement
+  className="vertical-timeline-element--education"
+  date="Sep 2024 - Present"
+  icon={<FaGraduationCap />}
+  iconStyle={{ background: "#007bff", color: "#fff" }}
+  contentStyle={{ background: "#0a192f", color: "white", borderRadius: "8px", padding: "15px" }}
+>
+  <h3 className="vertical-timeline-element-title">
+  <strong className="blue"> M.Sc in Information Processing and Complexity of Living Systems </strong>
+  </h3>
+  <h4 className="vertical-timeline-element-subtitle">
+    National Engineering School of Tunis (ENIT), Tunisia
+  </h4>
+</VerticalTimelineElement>
+
+
 
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -35,7 +49,7 @@ function Education() {
             iconStyle={{ background: "#007bff", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Telecommunications Engineering with Minors in Data Science and AI
+            <strong className="blue">Telecommunications Engineering with Minors in Data Science </strong>
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               National Engineering School of Tunis (ENIT), Tunisia
@@ -49,7 +63,7 @@ function Education() {
             iconStyle={{ background: "#007bff", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Pre-Engineering Studies in Mathematics and Physics
+            <strong className="blue"> Pre-Engineering Studies in Mathematics and Physics </strong>
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Preparatory Institute for Engineering Studies of El-Manar, Tunisia
@@ -63,7 +77,7 @@ function Education() {
             iconStyle={{ background: "#007bff", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
-              Baccalaureate Diploma (Mathematics Section)
+            <strong className="blue"> Baccalaureate Diploma (Mathematics Section) </strong>
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Tahar Sfar High School, Mahdia, Tunisia

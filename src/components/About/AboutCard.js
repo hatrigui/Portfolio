@@ -15,7 +15,7 @@ function AboutCard() {
             <br />
             <ImPointRight /> Pursuing a double degree <span className="blue"> Master’s program </span> in Information and Communication Technologies at ENIT, complemented by the Vision and Intelligent Machines track from the UFR Mathematics and Computer Science at Université Paris Cité.
             <br />
-            <ImPointRight />  With a passion for AI, machine learning, and web development. I specialize in building intelligent systems that solve real-world problems.
+            <ImPointRight />  I am a native <span className="blue"> Arabic </span> speaker, fluent in <span className="blue"> English </span> and <span className="blue"> French</span>, and have basic proficiency in <span className="blue"> German</span>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

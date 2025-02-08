@@ -12,10 +12,13 @@ import {
   DiDjango,
   DiHtml5,
   DiCss3,
+  DiMysql,
+
 } from "react-icons/di";
 import {
   SiNextdotjs,
-  
+  SiFlask,
+SiFastapi,
 } from "react-icons/si";
 
 
@@ -47,6 +50,9 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -58,6 +64,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+    <SiFlask /> {/* Flask for Model Deployment */}
+    </Col>
+    <Col xs={4} md={2} className="tech-icons">
+    <SiFastapi /> {/* FastAPI for Model Deployment */}
+    </Col>
       
     </Row>
   );
