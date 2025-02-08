@@ -5,6 +5,7 @@ import TechAndToolstack from "./TechAndToolstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Education from "./Education";
+import Extracurricular from "./Extracurricular";
 
 function About() {
   return (
@@ -42,6 +43,12 @@ function About() {
         </h1>
 
         <TechAndToolstack />
+
+        <h1 className="project-heading">
+  Extracurricular <strong className="blue">Activities</strong>
+</h1>
+<Extracurricular />
+
         
       </Container>
     </Container>
