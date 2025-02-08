@@ -16,7 +16,7 @@ function Extracurricular() {
         iconStyle={{ background: "#fff" }}
         icon={<img src={ieeeLogo} alt="IEEE" style={{ width: "100%", height: "100%" }} />}
       >
-        <h3 className="vertical-timeline-element-title"><strong className="blue">Member, Project Manager, OC, ExCom </strong> </h3>
+        <h3 className="vertical-timeline-element-title"><strong className="blue">Member, Project Manager, OC, ExCom Manager</strong> </h3>
         <h4 className="vertical-timeline-element-subtitle">IEEE ENIT SB</h4>
       </VerticalTimelineElement>
 

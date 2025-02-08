@@ -6,7 +6,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Education from "./Education";
 import Extracurricular from "./Extracurricular";
-
+import Certifications from "./Certifications";
 function About() {
   return (
     <Container fluid className="about-section">
@@ -48,6 +48,8 @@ function About() {
   Extracurricular <strong className="blue">Activities</strong>
 </h1>
 <Extracurricular />
+
+<Certifications />
 
         
       </Container>
