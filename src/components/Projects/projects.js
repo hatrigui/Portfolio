@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Banker from "../../Assets/Projects/Banker.png";
 
 function Projects() {
   return (
@@ -23,12 +23,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Banker}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Banker: Loan Prediction and Monitoring System"
+              description="Banker is a Big Data application that uses machine learning models (XGBoost, CatBoost, Random Forest) and Apache Spark for predicting loan approval statuses. It integrates the ELK Stack (Elasticsearch, Logstash, Kibana) for data storage and visualization. The system features a web app with an Angular frontend and Flask API backend, offering loan prediction analysis, synthetic data generation, and interactive dashboards to help managers monitor and make informed decisions. "
+              ghLink="https://github.com/hatrigui/Bnaker"
             />
           </Col>
 
