@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b2966c73.css",
+    "main.js": "/Portfolio/static/js/main.6033aedf.js",
+    "static/js/488.9561f9b8.chunk.js": "/Portfolio/static/js/488.9561f9b8.chunk.js",
+    "static/media/Coursera 3SFU5QP3L9HP_page-0001.jpg": "/Portfolio/static/media/Coursera 3SFU5QP3L9HP_page-0001.f5dcfc9e998c88e0e6dd.jpg",
+    "static/media/Lipreading.png": "/Portfolio/static/media/Lipreading.eb28bad21c451d4b0e3e.png",
+    "static/media/eeg.png": "/Portfolio/static/media/eeg.f7807b771fc9e4bba5ca.png",
+    "static/media/mhi.png": "/Portfolio/static/media/mhi.0bda734413cdb14b0060.png",
+    "static/media/IEEEXtreme_page-0001.jpg": "/Portfolio/static/media/IEEEXtreme_page-0001.8bd678a2199bfda116c1.jpg",
+    "static/media/Banker.png": "/Portfolio/static/media/Banker.e1fcc1881eb9d99046c5.png",
+    "static/media/about.png": "/Portfolio/static/media/about.a879524c812b91a363ef.png",
+    "static/media/My Learning _ NVIDIA_page-0001.jpg": "/Portfolio/static/media/My Learning _ NVIDIA_page-0001.179e97490b3f71dfa5b0.jpg",
+    "static/media/Fundamentals of Deep Learning_page-0001.jpg": "/Portfolio/static/media/Fundamentals of Deep Learning_page-0001.6ec3ed24114e7f9ec13c.jpg",
+    "static/media/QC.png": "/Portfolio/static/media/QC.056aedbfa6f86a6c3bd2.png",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/electrode.jpg": "/Portfolio/static/media/electrode.973c45f41d9bf7ad120a.jpg",
+    "static/media/lahtim.png": "/Portfolio/static/media/lahtim.696ddeed60bf6f8db902.png",
+    "static/media/ieee.png": "/Portfolio/static/media/ieee.d4beb9b037f3cad55192.png",
+    "static/media/CV_English.pdf": "/Portfolio/static/media/CV_English.9e6290bd0cf2f635b111.pdf",
+    "static/media/rotaract.png": "/Portfolio/static/media/rotaract.f4dabad24b4e77750dec.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.b9ad77fade73cebd64c2.png",
+    "static/media/interact.png": "/Portfolio/static/media/interact.47435db40f702ecf3989.png",
+    "static/media/primatec.png": "/Portfolio/static/media/primatec.398a16c10175d9fa6d16.png",
+    "static/media/womia.png": "/Portfolio/static/media/womia.45492013deb7e1a3f16e.png",
+    "static/media/plugntel.png": "/Portfolio/static/media/plugntel.7298b584574c48832593.png",
+    "static/media/aiesec.png": "/Portfolio/static/media/aiesec.c27e4bf9a72331641443.png",
+    "static/media/plenesys.png": "/Portfolio/static/media/plenesys.2e58a5431fd9573c434f.png",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.b2966c73.css.map": "/Portfolio/static/css/main.b2966c73.css.map",
+    "main.6033aedf.js.map": "/Portfolio/static/js/main.6033aedf.js.map",
+    "488.9561f9b8.chunk.js.map": "/Portfolio/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2966c73.css",
+    "static/js/main.6033aedf.js"
+  ]
+}
