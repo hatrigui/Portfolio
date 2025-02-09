@@ -765,3 +765,10 @@ html {
   
   
   
+canvas {
+    position: absolute !important;
+    z-index: 1;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+  }
