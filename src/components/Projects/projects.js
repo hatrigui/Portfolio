@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import mhi from "../../Assets/Projects/mhi.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import electrode from "../../Assets/Projects/electrode.jpg";
 import lr from "../../Assets/Projects/Lipreading.png";
 import eeg from "../../Assets/Projects/eeg.png";
 import qc from "../../Assets/Projects/QC.png";
@@ -76,13 +76,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={electrode}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Plasma Torch Electrode Detection and Tracking System"
+              description="This project developed a deep learning-based system for detecting and tracking electrodes in a plasma torch under extreme conditions. Using YOLOv8 for detection and Kalman Filters for tracking, the system achieved high precision (~1.0) and an F1-score (~0.74). Preprocessing included Gaussian blur, Otsu thresholding, contour detection, bounding boxes, and YOLO-format normalization for normal conditions, and negative transformation, contrast adjustment, and thresholding for plasma conditions. Challenges like occlusions, noise sensitivity, and electrode erosion were addressed with improvements like DeepSORT for better tracking."
+              ghLink="https://github.com/hatrigui/ElectrodesDetection-Tracking"
             />
           </Col>
         </Row>
