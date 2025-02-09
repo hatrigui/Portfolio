@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b2966c73.css",
-    "main.js": "/Portfolio/static/js/main.6033aedf.js",
+    "main.js": "/Portfolio/static/js/main.1d15d2bb.js",
     "static/js/488.9561f9b8.chunk.js": "/Portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/Coursera 3SFU5QP3L9HP_page-0001.jpg": "/Portfolio/static/media/Coursera 3SFU5QP3L9HP_page-0001.f5dcfc9e998c88e0e6dd.jpg",
     "static/media/Lipreading.png": "/Portfolio/static/media/Lipreading.eb28bad21c451d4b0e3e.png",
@@ -29,11 +29,11 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
     "main.b2966c73.css.map": "/Portfolio/static/css/main.b2966c73.css.map",
-    "main.6033aedf.js.map": "/Portfolio/static/js/main.6033aedf.js.map",
+    "main.1d15d2bb.js.map": "/Portfolio/static/js/main.1d15d2bb.js.map",
     "488.9561f9b8.chunk.js.map": "/Portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2966c73.css",
-    "static/js/main.6033aedf.js"
+    "static/js/main.1d15d2bb.js"
   ]
 }
