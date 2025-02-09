@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import mhi from "../../Assets/Projects/mhi.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import lr from "../../Assets/Projects/Lipreading.png";
+import eeg from "../../Assets/Projects/eeg.png";
+import qc from "../../Assets/Projects/QC.png";
 import Banker from "../../Assets/Projects/Banker.png";
 
 function Projects() {
@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="blue">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -26,52 +26,51 @@ function Projects() {
               imgPath={Banker}
               isBlog={false}
               title="Banker: Loan Prediction and Monitoring System"
-              description="Banker is a Big Data application that uses machine learning models (XGBoost, CatBoost, Random Forest) and Apache Spark for predicting loan approval statuses. It integrates the ELK Stack (Elasticsearch, Logstash, Kibana) for data storage and visualization. The system features a web app with an Angular frontend and Flask API backend, offering loan prediction analysis, synthetic data generation, and interactive dashboards to help managers monitor and make informed decisions. "
-              ghLink="https://github.com/hatrigui/Bnaker"
+              description="Banker is a Big Data application that uses machine learning models like XGBoost, CatBoost, and Random Forest to predict loan approval statuses. It integrates Apache Spark for scalable data processing and the ELK Stack (Elasticsearch, Logstash, Kibana) for data storage and visualization. The system features a web app with an Angular frontend and Flask API backend, allowing users to upload data, select models, and visualize loan predictions. The dataset consists of 45,000 entries with features such as age, income, and credit history. Banker enables managers to make data-driven decisions and track loan trends efficiently."
+              ghLink="https://github.com/hatrigui/Banker"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={qc}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Questions Classification"
+              description="This project compares classical machine learning methods (TF-IDF, BOW, Word2Vec + Logistic Regression, XGBoost, SVM), deep learning models (LSTM with GloVe embeddings), and transformer-based architectures (BERT) for classifying questions from the TREC Dataset. The dataset contains 6 coarse classes (e.g., DESCRIPTION, LOCATION) and 50 fine-grained classes (e.g., DESC:manner, LOC:city). The goal is to evaluate the effectiveness of each approach in addressing challenges like class imbalance and overfitting. Classical models achieved the best accuracy (81%), while deep learning and transformer models showed potential for future improvements."
+              ghLink="https://github.com/hatrigui/QuestionsClassification"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={lr}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="LipReading"
+              description="The project explores the evolution of lip reading techniques, from traditional methods to deep learning innovations like LipNet. Traditional methods, evaluated using the MIRACL-VC1 dataset, involved hand-engineered features like HOG (Histogram of Oriented Gradients) and SVM classifiers, achieving up to 47.65% accuracy. Deep learning methods, such as VGG16 + LSTM and LipNet (trained on the GRID Corpus), improved results significantly, with LipNet achieving 86% accuracy. This research aims to advance lip reading systems for medical applications, multilingual models, and efficient deployment."
+              ghLink="https://github.com/hatrigui/LipReading"
+                          
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={mhi}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="IEEE TSYP 11 Challenge | Understanding Student Well-being"
+              description="This project involved designing a survey to analyze student well-being, covering mental health, physical health, social relationships, emotional resilience, and academic performance. We analyzed responses using statistical methods like k-means clustering and the RAKE algorithm, identifying key trends like stress factors and correlations between health and academic outcomes. Based on these insights, we developed a React JS platform with personalized profiles, a confidential communication channel, a mental health chatbot, and a podcast library. The platform aimed to provide actionable support and recommended institutional reforms to improve student well-being."
+              ghLink="https://github.com/hatrigui/TSYP-11-SMC-Edoc-challenge"
+              demoLink="https://drive.google.com/drive/u/0/folders/1zr_U5AC9urz0ff4dJ9kRyTk1QNeeM4a4"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={eeg}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="EEG-Based Seizure Detection"
+              description="This project classifies EEG signals for epileptic seizure detection using machine learning techniques. Using the Bonn University EEG Dataset, we applied DWT, PCA, and SVM to achieve high performance. The best results were obtained with the Daubechies (db4) wavelet and 50 PCA components, yielding an accuracy of ~95%. This approach is a reliable framework for automated seizure detection, with potential for real-time clinical applications."
+              ghLink="https://github.com/hatrigui/EEG-Signal-Classification"
+             
             />
           </Col>
 
